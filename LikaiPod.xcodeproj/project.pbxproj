@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A23D9B5321C8A36300CB851A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A23D9B5221C8A36300CB851A /* AppDelegate.m */; };
+		A23D9B5621C8A36400CB851A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23D9B5521C8A36400CB851A /* ViewController.m */; };
+		A23D9B5921C8A36400CB851A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23D9B5721C8A36400CB851A /* Main.storyboard */; };
+		A23D9B5B21C8A36400CB851A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23D9B5A21C8A36400CB851A /* Assets.xcassets */; };
+		A23D9B5E21C8A36400CB851A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23D9B5C21C8A36400CB851A /* LaunchScreen.storyboard */; };
+		A23D9B6121C8A36400CB851A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A23D9B6021C8A36400CB851A /* main.m */; };
+		A23D9B6B21C8A36400CB851A /* LikaiPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23D9B6A21C8A36400CB851A /* LikaiPodTests.m */; };
+		A23D9B7621C8A36500CB851A /* LikaiPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23D9B7521C8A36500CB851A /* LikaiPodUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A23D9B6721C8A36400CB851A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23D9B4621C8A36300CB851A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23D9B4D21C8A36300CB851A;
+			remoteInfo = LikaiPod;
+		};
+		A23D9B7221C8A36500CB851A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23D9B4621C8A36300CB851A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23D9B4D21C8A36300CB851A;
+			remoteInfo = LikaiPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A23D9B4E21C8A36300CB851A /* LikaiPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikaiPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23D9B5121C8A36300CB851A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A23D9B5221C8A36300CB851A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A23D9B5421C8A36400CB851A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A23D9B5521C8A36400CB851A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A23D9B5821C8A36400CB851A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A23D9B5A21C8A36400CB851A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A23D9B5D21C8A36400CB851A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A23D9B5F21C8A36400CB851A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23D9B6021C8A36400CB851A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A23D9B6621C8A36400CB851A /* LikaiPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikaiPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23D9B6A21C8A36400CB851A /* LikaiPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikaiPodTests.m; sourceTree = "<group>"; };
+		A23D9B6C21C8A36400CB851A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23D9B7121C8A36400CB851A /* LikaiPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikaiPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23D9B7521C8A36500CB851A /* LikaiPodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikaiPodUITests.m; sourceTree = "<group>"; };
+		A23D9B7721C8A36500CB851A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23D9B4B21C8A36300CB851A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23D9B6321C8A36400CB851A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23D9B6E21C8A36400CB851A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A23D9B4521C8A36300CB851A = {
+			isa = PBXGroup;
+			children = (
+				A23D9B5021C8A36300CB851A /* LikaiPod */,
+				A23D9B6921C8A36400CB851A /* LikaiPodTests */,
+				A23D9B7421C8A36500CB851A /* LikaiPodUITests */,
+				A23D9B4F21C8A36300CB851A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A23D9B4F21C8A36300CB851A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23D9B4E21C8A36300CB851A /* LikaiPod.app */,
+				A23D9B6621C8A36400CB851A /* LikaiPodTests.xctest */,
+				A23D9B7121C8A36400CB851A /* LikaiPodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A23D9B5021C8A36300CB851A /* LikaiPod */ = {
+			isa = PBXGroup;
+			children = (
+				A23D9B5121C8A36300CB851A /* AppDelegate.h */,
+				A23D9B5221C8A36300CB851A /* AppDelegate.m */,
+				A23D9B5421C8A36400CB851A /* ViewController.h */,
+				A23D9B5521C8A36400CB851A /* ViewController.m */,
+				A23D9B5721C8A36400CB851A /* Main.storyboard */,
+				A23D9B5A21C8A36400CB851A /* Assets.xcassets */,
+				A23D9B5C21C8A36400CB851A /* LaunchScreen.storyboard */,
+				A23D9B5F21C8A36400CB851A /* Info.plist */,
+				A23D9B6021C8A36400CB851A /* main.m */,
+			);
+			path = LikaiPod;
+			sourceTree = "<group>";
+		};
+		A23D9B6921C8A36400CB851A /* LikaiPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				A23D9B6A21C8A36400CB851A /* LikaiPodTests.m */,
+				A23D9B6C21C8A36400CB851A /* Info.plist */,
+			);
+			path = LikaiPodTests;
+			sourceTree = "<group>";
+		};
+		A23D9B7421C8A36500CB851A /* LikaiPodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A23D9B7521C8A36500CB851A /* LikaiPodUITests.m */,
+				A23D9B7721C8A36500CB851A /* Info.plist */,
+			);
+			path = LikaiPodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23D9B4D21C8A36300CB851A /* LikaiPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23D9B7A21C8A36500CB851A /* Build configuration list for PBXNativeTarget "LikaiPod" */;
+			buildPhases = (
+				A23D9B4A21C8A36300CB851A /* Sources */,
+				A23D9B4B21C8A36300CB851A /* Frameworks */,
+				A23D9B4C21C8A36300CB851A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LikaiPod;
+			productName = LikaiPod;
+			productReference = A23D9B4E21C8A36300CB851A /* LikaiPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A23D9B6521C8A36400CB851A /* LikaiPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23D9B7D21C8A36500CB851A /* Build configuration list for PBXNativeTarget "LikaiPodTests" */;
+			buildPhases = (
+				A23D9B6221C8A36400CB851A /* Sources */,
+				A23D9B6321C8A36400CB851A /* Frameworks */,
+				A23D9B6421C8A36400CB851A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23D9B6821C8A36400CB851A /* PBXTargetDependency */,
+			);
+			name = LikaiPodTests;
+			productName = LikaiPodTests;
+			productReference = A23D9B6621C8A36400CB851A /* LikaiPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A23D9B7021C8A36400CB851A /* LikaiPodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23D9B8021C8A36500CB851A /* Build configuration list for PBXNativeTarget "LikaiPodUITests" */;
+			buildPhases = (
+				A23D9B6D21C8A36400CB851A /* Sources */,
+				A23D9B6E21C8A36400CB851A /* Frameworks */,
+				A23D9B6F21C8A36400CB851A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23D9B7321C8A36500CB851A /* PBXTargetDependency */,
+			);
+			name = LikaiPodUITests;
+			productName = LikaiPodUITests;
+			productReference = A23D9B7121C8A36400CB851A /* LikaiPodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A23D9B4621C8A36300CB851A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "李凯";
+				TargetAttributes = {
+					A23D9B4D21C8A36300CB851A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A23D9B6521C8A36400CB851A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A23D9B4D21C8A36300CB851A;
+					};
+					A23D9B7021C8A36400CB851A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A23D9B4D21C8A36300CB851A;
+					};
+				};
+			};
+			buildConfigurationList = A23D9B4921C8A36300CB851A /* Build configuration list for PBXProject "LikaiPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A23D9B4521C8A36300CB851A;
+			productRefGroup = A23D9B4F21C8A36300CB851A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A23D9B4D21C8A36300CB851A /* LikaiPod */,
+				A23D9B6521C8A36400CB851A /* LikaiPodTests */,
+				A23D9B7021C8A36400CB851A /* LikaiPodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23D9B4C21C8A36300CB851A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23D9B5E21C8A36400CB851A /* LaunchScreen.storyboard in Resources */,
+				A23D9B5B21C8A36400CB851A /* Assets.xcassets in Resources */,
+				A23D9B5921C8A36400CB851A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23D9B6421C8A36400CB851A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23D9B6F21C8A36400CB851A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23D9B4A21C8A36300CB851A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23D9B5621C8A36400CB851A /* ViewController.m in Sources */,
+				A23D9B6121C8A36400CB851A /* main.m in Sources */,
+				A23D9B5321C8A36300CB851A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23D9B6221C8A36400CB851A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23D9B6B21C8A36400CB851A /* LikaiPodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23D9B6D21C8A36400CB851A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23D9B7621C8A36500CB851A /* LikaiPodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A23D9B6821C8A36400CB851A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23D9B4D21C8A36300CB851A /* LikaiPod */;
+			targetProxy = A23D9B6721C8A36400CB851A /* PBXContainerItemProxy */;
+		};
+		A23D9B7321C8A36500CB851A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23D9B4D21C8A36300CB851A /* LikaiPod */;
+			targetProxy = A23D9B7221C8A36500CB851A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A23D9B5721C8A36400CB851A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23D9B5821C8A36400CB851A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A23D9B5C21C8A36400CB851A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23D9B5D21C8A36400CB851A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A23D9B7821C8A36500CB851A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A23D9B7921C8A36500CB851A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A23D9B7B21C8A36500CB851A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikaiPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daf.LikaiPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A23D9B7C21C8A36500CB851A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikaiPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daf.LikaiPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A23D9B7E21C8A36500CB851A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikaiPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daf.LikaiPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikaiPod.app/LikaiPod";
+			};
+			name = Debug;
+		};
+		A23D9B7F21C8A36500CB851A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikaiPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daf.LikaiPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikaiPod.app/LikaiPod";
+			};
+			name = Release;
+		};
+		A23D9B8121C8A36500CB851A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikaiPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daf.LikaiPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LikaiPod;
+			};
+			name = Debug;
+		};
+		A23D9B8221C8A36500CB851A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikaiPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daf.LikaiPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LikaiPod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23D9B4921C8A36300CB851A /* Build configuration list for PBXProject "LikaiPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23D9B7821C8A36500CB851A /* Debug */,
+				A23D9B7921C8A36500CB851A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23D9B7A21C8A36500CB851A /* Build configuration list for PBXNativeTarget "LikaiPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23D9B7B21C8A36500CB851A /* Debug */,
+				A23D9B7C21C8A36500CB851A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23D9B7D21C8A36500CB851A /* Build configuration list for PBXNativeTarget "LikaiPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23D9B7E21C8A36500CB851A /* Debug */,
+				A23D9B7F21C8A36500CB851A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23D9B8021C8A36500CB851A /* Build configuration list for PBXNativeTarget "LikaiPodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23D9B8121C8A36500CB851A /* Debug */,
+				A23D9B8221C8A36500CB851A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A23D9B4621C8A36300CB851A /* Project object */;
+}
